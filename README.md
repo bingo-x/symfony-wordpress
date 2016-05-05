@@ -7,28 +7,12 @@ edit parameters.yml "app/config/parameters.yml"
 # configure apache
 eidt http-vhosts.conf file with the following content:
 
-<VirtualHost *:80>
-    ServerAdmin webmaster@dummy-host2.example.com
-    DocumentRoot "E:/project/symfony-wordpress/web-pc"
-    ServerName bibom.wp.com
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
-</VirtualHost>
-
-<VirtualHost *:80>
-    ServerAdmin webmaster@dummy-host2.example.com
-    DocumentRoot "E:/project/symfony-wordpress/web-m"
-    ServerName m.bibom.wp.com
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
-</VirtualHost>
-
-<VirtualHost *:80>
-    ServerAdmin webmaster@dummy-host2.example.com
-    DocumentRoot "E:/project/symfony-wordpress/web-admin"
-    ServerName admin.bibom.wp.com
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
-</VirtualHost>
+\<VirtualHost *:80\>
+ServerAdmin webmaster@dummy-host2.example.com
+DocumentRoot "E:/project/symfony-wordpress/web-pc"
+ServerName bibom.wp.com
+ErrorLog "logs/dummy-host2.example.com-error.log"
+CustomLog "logs/dummy-host2.example.com-access.log" common
+\</VirtualHost\>
 
 My system's windows.If you have any questions on other system like linux or Mac, please google "http-vhosts config". 
