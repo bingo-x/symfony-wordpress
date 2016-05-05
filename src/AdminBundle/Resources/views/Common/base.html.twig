@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block meta %}
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="learn and share with bibom">
+            <meta name="keywords" content="learn,share,bibom">
+            <meta name="author" content="bibom">
+            <meta name="application-name" content="011235etc.com">
+        {% endblock %}
+        <title>
+            {% block title %}
+               learn and share with bibom
+            {% endblock %}
+        </title>
+        {% block stylesheets %}
+            <link href="{{ asset('/css/common.css') }}" type="text/css" rel="stylesheet" />
+        {% endblock %}
+    </head>
+    <body >
+        {% block body %}
+        {% endblock %}
+        {% block javascripts %}
+            <script src="{{ asset('/js/jquery-1.8.3.min.js') }}" type="text/javascript"></script>
+            <script src="{{ asset('/js/layer/layer.js') }}" type="text/javascript"></script>
+        {% endblock %}
+    </body>
+</html>
