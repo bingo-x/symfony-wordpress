@@ -1,0 +1,3 @@
+pc:
+    resource: "@PCBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,12 @@
+m:
+    resource: "@MBundle/Resources/config/routing.yml"
+    prefix:   /
+
+admin:
+    resource: "@AdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pc:
+    resource: "@PCBundle/Resources/config/routing.yml"
+    prefix:   /
+
