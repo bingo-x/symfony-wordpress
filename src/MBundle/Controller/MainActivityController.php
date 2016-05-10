@@ -4,10 +4,10 @@ namespace MBundle\Controller;
 
 use MBundle\Controller\BaseController;
 
-class DefaultController extends BaseController
+class MainActivityController extends BaseController
 {
     public function indexAction()
     {
-        return $this->render('MBundle:Default:index.html.twig');
+        return $this->render('MBundle:MainActivity:index.html.twig');
     }
 }
