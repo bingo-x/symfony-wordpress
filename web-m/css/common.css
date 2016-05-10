@@ -6,47 +6,70 @@ input:focus{
 }
 html,body,h1,h2,h3,h4,h5,p,div,ul,ol,li,pre,code,button,dd,dt,dl{margin:0; padding:0}
 img{border:0}
-body{ font-family: "Open Sans",sans-serif; font-size: 13px}
+body{ font-family: "Open Sans",sans-serif; font-size: 14px;background-color: #e9eef2;letter-spacing:1px}
 li {list-style: outside none none}
-a{text-decoration: none;outline: 0}
 .f12{font-size: 12px}
 .f13{font-size: 13px}
 .f14{font-size: 14px}
 .f15{font-size: 15px}
 .f16{font-size: 16px}
+.f17{font-size: 17px}
 .f18{font-size: 18px}
 .f20{font-size: 20px}
-.pt5 {padding-top: 5px}
-.pt10 {padding-top: 10px}
-.pt20 {padding-top: 20px}
-.pt30 {padding-top: 30px}
-.pr5 {padding-right: 5px}
-.pr10 {padding-right: 10px}
-.pr20 {padding-right: 20px}
-.pr30 {padding-right: 30px}
-.pb5 {padding-bottom: 5px}
-.pb10 {padding-bottom: 10px}
-.pb20 {padding-bottom: 20px}
-.pb30 {padding-bottom: 30px}
-.pf5 {padding-left: 5px}
-.pf10 {padding-left: 10px}
-.pf20 {padding-left: 20px}
-.pf30 {padding-left: 30px}
-.mt5 {margin-top: 5px}
-.mt10 {margin-top: 10px}
-.mt20 {margin-top: 20px}
-.mt30 {margin-top: 30px}
-.mr5 {margin-right: 5px}
-.mr10 {margin-right: 10px}
-.mr20 {margin-right: 20px}
-.mr30 {margin-right: 30px}
-.mb5 {margin-bottom: 5px}
-.mb10 {margin-bottom: 10px}
-.mb20 {margin-bottom: 20px}
-.mb30 {margin-bottom: 30px}
-.ml5 {margin-left: 5px}
-.ml10 {margin-left: 10px}
-.ml20 {margin-left: 20px}
-.ml30 {margin-left: 30px}
-.f-l {float: left}
-.f-r {float: right}
+.f25{font-size: 25px}
+.col-1 {width: 8.333333333%}
+.col-2 {width: 16.666666666%}
+.col-3 {width: 24.999999999%}
+.col-4 {width: 33.333333333%}
+.col-5 {width: 41.666666666%}
+.col-6 {width: 49.999999999%}
+.col-7 {width: 58.333333333%}
+.col-8 {width: 66.666666666%}
+.col-9 {width: 74.999999999%}
+.col-10 {width: 83.333333333%}
+.col-11 {width: 91.666666666%}
+.col-12 {width: 100%}
+.f-left {float: left}
+.f-right {float: right}
+
+.topnav {height:52px;background:#0176d5;color:#fff;position: relative;white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.topnav .menu-icon{height: 42px;width: 42px;margin-top: 5px;position: relative}
+.topnav .menu-icon.active{background-color: #0484ed}
+.topnav .menu-icon span {position: absolute;font-size: 25px;top: 10px;left: 9px}
+.topnav .menu-icon .menu1 {top:12px}
+.topnav .menu-icon .message1 {top:12px}
+.topnav .menu-icon .goback1 {top:7px}
+.topnav .menu-content{height: 42px;margin-top: 5px;position: relative}
+.topnav .menu-content span {position: absolute;font-size: 18px;top: 12px}
+
+.left-menu {height:150px;width:100%;background:#0176d5;padding-top: 30px}
+.left-menu .avatar{border-radius: 50%;width: 64px;height: 64px;margin-left: 15px;overflow: hidden;background-color: #a5cff0}
+.left-menu .avatar img{width: 64px;height: 64px}
+.left-menu .nickname{margin: 30px 0 0 15px;color: #fff}
+.left-menu .level{margin: -4px 0 0 15px;color: #dff0ff;white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.loadbtn {text-align: center;margin: 5px;padding: 8px 0;font-size: 13px;color:#595959;border-radius: 3px}
+.loadbtn.active {background-color: #cce1f1}
+.right-menu {}
+.right-menu .s-m{padding: 10px 16px;font-size: 16px;color: #414040}
+
+@font-face {font-family: "common-icon";
+            src: url('/font/common/iconfont.eot?t=1462869421'); /* IE9*/
+            src: url('/font/common/iconfont.eot?t=1462869421#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('/font/common/iconfont.woff?t=1462869421') format('woff'), /* chrome, firefox */
+                url('/font/common/iconfont.ttf?t=1462869421') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+                url('/font/common/iconfont.svg?t=1462869421#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.common-icon {
+    font-family:"common-icon" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu1:before { content: "\e62c"}
+.icon-menu2:before { content: "\e641"}
+.icon-search1:before { content: "\e61f"}
+.icon-message1:before { content: "\e626"}
+.icon-goback1:before { content: "\e622"; }
